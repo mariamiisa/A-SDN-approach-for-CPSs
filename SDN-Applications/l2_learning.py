@@ -97,7 +97,8 @@ class LearningSwitch (object):
              
         if tcpp is not None:
           dstp = tcpp.dstport
-
+          srcp = tcpp.srcport
+          
           if (dstp == 8754 or dstp == 7842 \
              or srcp == 8754 or srcp == 7842): 
             
