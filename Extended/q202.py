@@ -25,7 +25,7 @@ class PSocket(Thread):
     def run(self):
         print "DEBUG entering socket thread run"
         self.sock = socket.socket()     # Create a socket object    
-        self.sock.bind((IP['q202'] , 7842 ))
+        self.sock.bind((IP['q202'] , 7844 ))
         self.sock.listen(5)
 
         while True:
