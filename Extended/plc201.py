@@ -167,9 +167,9 @@ class PLC201(PLC):
                 print "Q1 value: ", Q1 , "Q2 value: " , Q2
 		
 		
-		self.received_lit201 = self.recv_message(IP['lit201'], 8754)
-		self.received_lit202 = self.recv_message(IP['lit202'], 8754)
-		#self.received_lit103 = self.recv_message(IP['lit103'], 8754)
+		self.received_lit201 = self.recv_message(IP['lit201'], 8755)
+		self.received_lit202 = self.recv_message(IP['lit202'], 8755)
+		#self.received_lit103 = self.recv_message(IP['lit103'], 8755)
 		
 		#print "The received levels from the sensors are: ", self.received_lit101, self.received_lit102
 		
@@ -212,8 +212,8 @@ class PLC201(PLC):
 
 		#self.set(Q101, float(self.q1))
 		#self.set(Q102, float(self.q2))
-                self.send_message(IP['q201'], 7842 ,float(self.q1))
-                self.send_message(IP['q202'], 7842 ,float(self.q2))
+                self.send_message(IP['q201'], 7844 ,float(self.q1))
+                self.send_message(IP['q202'], 7844 ,float(self.q2))
 
 		#print "Sending to q101:", self.q1
 		#print "Sending to q102:", self.q2
