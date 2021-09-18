@@ -29,7 +29,7 @@ class SSocket(Thread):
     def run(self):
         print "DEBUG entering socket thread run"
         self.sock = socket.socket()     # Create a socket object    
-        self.sock.bind((IP['lit201'] , 8754 ))
+        self.sock.bind((IP['lit201'] , 8755 ))
         self.sock.listen(5)
 
         while True:
