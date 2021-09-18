@@ -76,8 +76,8 @@ class DumbbellTopo(Topo):
 
 		# Add links
 		
-		self.addLink( S2, PLC101, intfName2='plc1-eth1', params2={'ip' : defaultIP} ,cls=TCLink , delay='1ms' ,bw=100)
 		self.addLink( S2, PLC201, intfName2='plc1-eth1', params2={'ip' : defaultIP} ,cls=TCLink , delay='1ms' ,bw=100)
+		self.addLink( S2, PLC101, intfName2='plc1-eth1', params2={'ip' : defaultIP} ,cls=TCLink , delay='1ms' ,bw=100)
 		
 		self.addLink(S2,server ,cls=TCLink , delay='1ms' ,bw=100)
 		self.addLink(S1,client ,cls=TCLink , delay='1ms' ,bw=100)
