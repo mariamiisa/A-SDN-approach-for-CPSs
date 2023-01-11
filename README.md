@@ -1,4 +1,5 @@
-# CPS-SDN
+# A SDN approach for CPSs, 3 Tank System Case Study
+
 This repository has the implementation of the Three Tank System implemented by the researchers in the [this](https://dl.acm.org/doi/10.1145/3295453.3295457) publication, and can be found in the following github repository: [ICS-SDC francisco-topo](https://github.com/afmurillo/ICS-SDN/tree/master/francisco-topo)
 
 The Three Tank System topology has been extended and modified to fit in with the objectives of the work of the article of "A Software-Defined Networks Approach for Cyber
